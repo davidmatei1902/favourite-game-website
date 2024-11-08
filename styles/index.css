@@ -53,13 +53,47 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    
+
+    /* opacity #1 effect*/
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .4s ease-in-out;
+  }
+
+  .overview:hover {
+    opacity: .8;
+    animation: shineIt 2s forwards;
+    animation-direction: normal;
+  }
+
+  .overview:not(:hover) {
+    animation-direction: reverse;
+  }
+
+  @keyframes shineIt {
+    0% {
+        filter: grayscale(100%);
+        
+        /* prevents from changing the grayscale of header*/
+        filter: opacity(1);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
   }
   
   .overview h2 {
     font-size: 2.5em;
     margin-bottom: 15px;
+    color: #ffcc00;
   }
-  
+  .overview h2:hover {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color:#ffcc00;
+  }
+
   .overview p {
     font-size: 1.2em;
     max-width: 800px;
@@ -72,7 +106,18 @@
     cursor: pointer;
   }
 
+  .container {
+    display: grid;
+    width: 100%;
+    padding: 0;
+
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(6, 100px);
+  }
+
   .fading-image-city1 {
+    grid-row: 1/3;
+    grid-column: 1/5;
     position: relative;
     top: 0;
     left: 0;
@@ -86,6 +131,8 @@
 
   .fading-image-girl {
     position: relative;
+    grid-row: 3/5;
+    grid-column: 5/6;
     top: 0;
     left: 0;
     width: 100%;
