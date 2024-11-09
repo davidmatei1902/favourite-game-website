@@ -25,7 +25,7 @@ img {
 
 .item {
     color: yellow;
-    padding: 1ch;
+    padding: 1rem;
 }
 
 .item-current {
@@ -34,7 +34,9 @@ img {
 	transition: .4s ease-in-out;
     color: red;
     font-weight: bold;
-
+    background-color: cyan;
+    border-radius: 50px 10px 50px 10px;
+    padding: 10px;
 }
 
 li {
@@ -45,7 +47,12 @@ li {
 ul {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: 2px solid yellow;
+    border: 10px double yellow;
+}
+
+
+.item-current a {
+    color: black;
 }
 
 a {

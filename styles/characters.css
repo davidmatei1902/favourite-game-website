@@ -1,0 +1,215 @@
+* {
+    /*margin: 0;*/
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1,h2 {
+    color: yellow;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+
+  .good-characters .title h2 {
+    color: yellow;
+  }
+
+  .bad-characters .title h2 {
+    color: red;
+  }
+
+  /* GOOD CHARACTERS*/
+
+  .good-characters .images-container {
+    display: flex; /* Enables flexbox layout */
+    gap: 30px; /* Adds space between the items */
+    justify-content: center; /* Centers the items horizontally */
+    flex-wrap: wrap; /* Allows wrapping to a new row if necessary */
+    }
+
+    .good-characters .images-container title {
+    display: flex; /* Enables flexbox layout */
+    }
+ 
+  .good-characters .image-container-1 {
+    flex: 1 1 300px;
+    max-width: 700px;
+    box-sizing: border-box;
+
+    /* 3 elements per row*/
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+
+
+    border: 8px solid cyan;
+    background-color: cyan;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+
+    flex-direction: column;
+  }
+
+  .good-characters .image-container {
+    flex: 1 1 300px;
+    max-width: 500px;
+    box-sizing: border-box;
+
+    /* 3 elements per row*/
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    
+    border: 8px solid yellow;
+    background-color: yellow;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+
+    flex-direction: column;
+  }
+
+  .good-characters .image {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+
+  .good-characters .image-container .content {
+    color: black;
+    padding: 5px;
+    text-indent: 10px;
+    border: 10px solid black;
+    font-weight: bold;
+    border-top-color: black;
+    border-left-color: yellow;
+    border-right-color: yellow;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+  .good-characters .image-container-1 .content {
+    color: black;
+    padding: 5px;
+    text-indent: 10px;
+    border: 10px solid black;
+    font-weight: bold;
+    border-top-color: black;
+    border-left-color: cyan;
+    border-right-color: cyan;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+
+  /* BAD CHARACTERS */
+
+  
+  .bad-characters .images-container {
+    display: flex; /* Enables flexbox layout */
+    gap: 30px; /* Adds space between the items */
+    justify-content: center; /* Centers the items horizontally */
+    flex-wrap: wrap; /* Allows wrapping to a new row if necessary */
+    }
+
+    .bad-characters .images-container title {
+    display: flex; /* Enables flexbox layout */
+    }
+ 
+    .bad-characters .image-container-1 {
+    flex: 1 1 300px;
+    max-width: 700px;
+    box-sizing: border-box;
+
+    /* 3 elements per row*/
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+
+
+    border: 8px solid cyan;
+    background-color: cyan;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+
+    flex-direction: column;
+  }
+
+  .bad-characters .image-container {
+    flex: 1 1 300px;
+    max-width: 500px;
+    box-sizing: border-box;
+
+    /* 3 elements per row*/
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    
+    border: 8px solid black;
+    background-color: red;
+    border-radius: 0 20px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+
+    flex-direction: column;
+  }
+
+  .bad-characters .image {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+
+  .bad-characters .image-container .content {
+    color: white;
+    padding: 5px;
+    text-indent: 10px;
+    border: 10px solid white;
+    font-weight: bold;
+    border-top-color: black;
+    border-left-color: red;
+    border-right-color: red;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+  .bad-characters .image-container-1 .content {
+    color: white;
+    padding: 5px;
+    text-indent: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-top-color: black;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+  /**/
+
+  
+
+  .image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  
