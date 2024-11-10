@@ -26,6 +26,20 @@
     animation: fadeOut 3s forwards;
   }
 
+  .fading-image-cyberpunk-2077 {
+    position: relative;
+    grid-row: 3/5;
+    grid-column: 5/6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/img/cp_wallpaper.jpg') no-repeat center center fixed;
+    background-size:cover ;
+    filter: brightness(50%) blur(8px);
+    animation: fadeOut 3s forwards;
+  }
+  
   .fading-blur {
     position: relative;
     animation: fadeOut 0.1s forwards;
@@ -68,7 +82,7 @@
   /* Overview Section */
   .overview {
     background: rgba(0, 0, 0, 0.8);
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     
@@ -117,6 +131,7 @@
     max-width: 800px;
     margin: 0 auto;
   }
+
 
     /* Hover Effect */
     header h1:hover {

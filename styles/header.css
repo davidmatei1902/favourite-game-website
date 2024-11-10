@@ -39,12 +39,12 @@ img {
     padding: 10px;
 }
 
-li {
+.navigation-drawer li {
     display: inline-block;
     font-size: 30px;
 }
 
-ul {
+.navigation-drawer ul {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border: 10px double yellow;
