@@ -111,6 +111,10 @@ body {
       z-index: 1;
       padding: 20px;
     }
+
+    .navigation-drawer ul {
+      background-color: black;
+    }
   
     .hamburger-menu:has(input:checked) ~ .navigation-drawer {
       transform: translateX(0);
