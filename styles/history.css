@@ -26,6 +26,12 @@ p {
   color: #d0d0d0;
 }
 
+
+.image {
+  width: 700px;
+  height: 400px;
+}
+
 .timeline {
   margin:50px auto;
   position: relative;

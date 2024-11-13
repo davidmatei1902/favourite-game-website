@@ -25,28 +25,41 @@
     text-align: center;
     color: #d0d0d0;
   }
-  
-  .image-container {
-    margin: 0;
-    width: 70%;
-    height: 450px;
-    display: flex;
+
+  .info {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    max-width: 1200px;
     justify-content: center;
-    gap: 10px;
-    margin: auto;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(225, 255, 0, 1);
+    border-radius: 100px;
+    border: 10px solid yellow;
   }
 
-  .image-container img {
-    width: 30%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid yellow;
-    transition: all ease-in-out 0.5s;
+  .info h2 {
+    font-size: 1.8rem;
+    color: yellow;
+  }
+  
+  .info ul {
+    list-style-type: none;
+  }
+  
+  .info li {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+    max-width: 1200px;
   }
 
-  .image-container img:hover {
-    width: 50%;
+  .info li:hover {
+    color: black;
+    font-weight: bold;
+    background-color: cyan;
+    box-shadow: 0 0 10px cyan;
+
+    cursor: pointer;
   }
 
   .content {

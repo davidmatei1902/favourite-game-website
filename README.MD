@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/X6gXD4NX)
+
 # A beautiful tale of ...
 
 ## Story
@@ -34,10 +35,14 @@ Navigate in GitHub to the _Issues_ section and complete all issues. Mark your pr
 ## Hints
 
 - This project will be evaluated against four pillars:
-    - _Visual style_. This includes how the application looks, how it responds to screen resolution changes, and how friendly and easy to use it is.
-    - _Code correctness_. Is the code following the standards properly? Or is it just a mishmash of things put there until it works.
-    - _Content_. The website itself need to have rich content, with pictures, text, and friendly navigation.
-    - _Presentation_. How are you presenting the project? Can you emphasize all its features and show the code that you used to create them?
+  - _Visual style_. This includes how the application looks, how it responds to screen resolution changes, and how friendly and easy to use it is.
+  - _Code correctness_. Is the code following the standards properly? Or is it just a mishmash of things put there until it works.
+  - _Content_. The website itself need to have rich content, with pictures, text, and friendly navigation.
+  - _Presentation_. How are you presenting the project? Can you emphasize all its features and show the code that you used to create them?
+
+## Low Fidelity wireframe of this project
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVLFudXb4=/?moveToViewport=-2671,-1390,4538,2172&embedId=676945547481" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ## Background materials
 
@@ -45,18 +50,18 @@ Navigate in GitHub to the _Issues_ section and complete all issues. Mark your pr
 
 - All of the existing courses on Moodle
 - Wireframes
-    - <i class="far fa-book-open"></i> [About Wireframing](https://www.awwwards.com/wireframe-basics-for-beginners-an-agency-perspective.html)
+  - <i class="far fa-book-open"></i> [About Wireframing](https://www.awwwards.com/wireframe-basics-for-beginners-an-agency-perspective.html)
 - CSS Layouts
-   - Floats
-       - <i class="far fa-exclamation"></i> [Floats documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
-   - Flexbox
-       - <i class="far fa-exclamation"></i> [Flexbox documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-       - <i class="far fa-exclamation"></i> [Flexbox tutorial](https://flexbox.io/)
-       - <i class="far fa-candy-cane"></i> [Layout tutorial from nothing to flexbox](https://learnlayout.com/)
-       - <i class="far fa-video"></i> [How to use flexbox](https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid) (you just need the Tutorial 2-9)
-   - Grid
-       - <i class="far fa-exclamation"></i> [Grid documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
-       - <i class="far fa-exclamation"></i> [Grid tutorial](https://cssgrid.io/)
-       - <i class="far fa-video"></i> [CSS grid fundamentals](https://www.youtube.com/watch?v=T-slCsOrLcc&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG) (you just need the Tutorial 3-11)
+  - Floats
+    - <i class="far fa-exclamation"></i> [Floats documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
+  - Flexbox
+    - <i class="far fa-exclamation"></i> [Flexbox documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+    - <i class="far fa-exclamation"></i> [Flexbox tutorial](https://flexbox.io/)
+    - <i class="far fa-candy-cane"></i> [Layout tutorial from nothing to flexbox](https://learnlayout.com/)
+    - <i class="far fa-video"></i> [How to use flexbox](https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid) (you just need the Tutorial 2-9)
+  - Grid
+    - <i class="far fa-exclamation"></i> [Grid documentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
+    - <i class="far fa-exclamation"></i> [Grid tutorial](https://cssgrid.io/)
+    - <i class="far fa-video"></i> [CSS grid fundamentals](https://www.youtube.com/watch?v=T-slCsOrLcc&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG) (you just need the Tutorial 3-11)
 - Other
-   - <i class="far fa-book-open"></i> [Web design history](https://blog.froont.com/brief-history-of-web-design-for-designers/)
+  - <i class="far fa-book-open"></i> [Web design history](https://blog.froont.com/brief-history-of-web-design-for-designers/)

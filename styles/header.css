@@ -74,7 +74,7 @@ body {
     .navigation-drawer {
 
         /* animation */
-        /* transition: translate var(--animation-timing); */
+        transition: translate var(--animation-timing);
         
         translate: -100%;
         background-color: var(--foreground-transp);

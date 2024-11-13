@@ -12,8 +12,53 @@
     line-height: 1.6;
   }
 
-  p {
-    font-size: 1.2em;
+  h1, h2 {
     text-align: center;
+    color: yellow;
+    font-family: 'Century Gothic', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    font-size: 1.6em;
+    text-align: center;
+    color: #d0d0d0;
+  }
+
+  ol {
+    text-align: center;
+    display: flex;
+    align-items: center;   
+    list-style-position: inside; 
+  }
+
+
+  ol b {
+    font-size: 1.4em;
+    color: yellow;
+  }
+
+  ol li::marker {
+    font-size: 1.3em;
+    color: yellow;
+  }
+
+  ol summary {
+    color: cyan;
+    font-size: 2em;
+  }
+
+  details {
+    position: relative;
+  }
+  
+  .details-content {
+    color: black;
+    border: 10px solid yellow;
+    border-radius: 10px;
+    background-color: cyan;
+    padding: 15px 5px 15px 5px;
+    font-size: 1.2em;
   }
   
