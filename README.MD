@@ -22,4 +22,4 @@ It is fully responsive and looks good on both desktop and mobile screens.
 ## Live Demo
 
 Check out the website here:  
-[View Live Project](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
+[View Live Project](https://tehnologii-web-2024.github.io/proiect-2-html-css-davidmatei1902/)
